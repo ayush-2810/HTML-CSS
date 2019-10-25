@@ -1,0 +1,67 @@
+body {
+	width: 100%;
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	background: url("bg.jpg") no-repeat;
+	background-size: cover;
+
+}
+#main{
+	width: 300px;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+}
+h1 {
+	color: white;
+	border-bottom: 6px solid green;
+	margin-bottom: 50px;
+	padding: 15px 0;
+}
+.tex {
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	color: white
+}
+input {
+	font-size: 16px;
+	border: none;
+	background: none;
+	outline: none;
+	font-style: 16px;
+	width: 80%;
+	margin: 0 8px;
+	color: white;
+	float: left;
+}
+.btn {
+	width: 100%;
+	cursor: pointer;
+	border: 2px solid green;
+	color: white;
+	padding: 5px;
+	margin: 21px 0;
+}
+.text{
+	border-bottom: 1px solid green;
+	padding: 10px 0;
+	margin: 10px 0;
+	overflow: hidden;
+	width: 100%;
+}
+a:visited{
+	color: green
+}
+h6{
+	float: left;
+	color: white;
+}
+.login{
+	color: white;
+	text-align: center;
+	margin-top: -10px;
+	margin-left: 50px;
+}
